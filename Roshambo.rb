@@ -1,8 +1,3 @@
-
-#exit if name = "" || " "
-
-    user_engagement_wins = 0
-    computer_engagement_wins = 0
 class Game
   def initialize
     @user_bout_wins = 0
