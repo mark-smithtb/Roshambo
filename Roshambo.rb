@@ -16,6 +16,7 @@ class Game
   def user_name
     puts "Please input your name"
     @name = gets.chomp
+    exit if @name == "" || " "
   end
 
   def choice
